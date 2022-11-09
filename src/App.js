@@ -20,7 +20,7 @@ import { useState } from 'react';
 import MainList from './Components/MainList';
 
 function App() {
-const [members,setMembers]=useState(['Aryan','Karan','Kishan','Rishi'])
+const [members,setMembers]=useState(['nageshwar','ashwini','Kishan','Rishabh'])
   let arr=[
     {'Marketing':{
       'people':['Aryan','Karan'],
