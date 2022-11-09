@@ -49,7 +49,7 @@ const [schema,setSchema]=useState(arr)
     <Box className="App" style={{border:"2px solid" ,width:"60%" ,margin:"auto"}} >
       <Flex minWidth='max-content' alignItems='center' gap='4' margin='100'>
 <Box>
-  <Text>Sop</Text>
+  <Heading as="h4">SOP</Heading>
   <Heading as='h1' size='xl' noOfLines={1}> Action Plans</Heading>
 </Box>
 <Spacer />

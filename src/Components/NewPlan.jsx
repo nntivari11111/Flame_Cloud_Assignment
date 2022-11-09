@@ -63,7 +63,7 @@ function NewPlan({ schema, setSchema }) {
             >
               Cancel
             </Button>
-            <PlanSub />
+            <PlanSub ontackle={onClose}/>
           </ModalFooter>
         </ModalContent>
       </Modal>

@@ -17,7 +17,7 @@ const Accord = ({ele}) => {
    
     console.log(main)
   return (
-    <Accordion>
+    <Accordion allowMultiple>
     <AccordionItem>
       <h2>
         <AccordionButton>

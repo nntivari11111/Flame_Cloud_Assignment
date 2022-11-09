@@ -24,7 +24,7 @@ const SubAccord = ({main,category,subCategory,arr1}) => {
         <AccordionIcon />
       </AccordionButton>
     </h2>
-    <AccordionPanel pb={4}>
+    <AccordionPanel pb={4} textAlign='left'>
         {
             ans?.map((element)=>{
                 return ( <Box style={{border:'1px solid black',marginTop:'5px',borderRadius:"10px"}}>{element}</Box>)
