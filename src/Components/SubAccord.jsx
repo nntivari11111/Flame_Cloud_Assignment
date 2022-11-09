@@ -10,7 +10,6 @@ import { useState } from 'react'
 
 const SubAccord = ({main,category,subCategory,arr1}) => {
 
-    console.log('bello')
     console.log(main[arr1])
     const [ans,setAns]=useState(main[arr1])
   return (

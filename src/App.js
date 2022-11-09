@@ -23,7 +23,7 @@ function App() {
 const [members,setMembers]=useState(['nageshwar','ashwini','Kishan','Rishabh'])
   let arr=[
     {'Marketing':{
-      'people':['Aryan','Karan'],
+      'people':['nageshwar','Karan'],
       'Google Drive':['Pointer1','Pointer2','Pointer3'],
       'Wordpress':['easiest','web development']
     

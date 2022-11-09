@@ -12,9 +12,9 @@ const Accord = ({ele}) => {
     const [main,setMain]=useState(Object.values(ele)[0])
     const [category,setCategory]=useState(Object.keys(main).splice(1))
     const [subCategory,setSubCategory]=useState(Object.values(main).splice(1))
-    console.log('almost')
+  
     console.log(category)
-    console.log('main')
+   
     console.log(main)
   return (
     <Accordion>

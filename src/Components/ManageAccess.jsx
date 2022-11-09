@@ -16,10 +16,6 @@ import Members from './Members';
 import Names from './Names';
 
 
-{/* <Names arr1={Object.values(e)[0].people} keys={i}/> */}
-// Object.values(e)[0].people.map((ele)=>{
-//     <span>{ele}</span>
-//                                 })
 function ManageAccess({schema,members}) {
     const { isOpen, onOpen, onClose } = useDisclosure()
 

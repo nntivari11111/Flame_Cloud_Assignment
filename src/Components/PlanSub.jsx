@@ -28,7 +28,7 @@ function PlanSub({handleClick}) {
             <ModalCloseButton />
             <ModalBody>
              
-              <Box>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</Box>
+              <Box>commodo ligula eget dolor.</Box>
             </ModalBody>
   
             <ModalFooter>
