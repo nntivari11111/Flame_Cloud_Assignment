@@ -8,6 +8,8 @@ import {
   ModalFooter,
   ModalBody,
   ModalCloseButton,
+  Container,
+  useColorModeValue,
   Box,Text,Button
 } from '@chakra-ui/react'
 import { Heading } from '@chakra-ui/react'
@@ -29,7 +31,7 @@ const [members,setMembers]=useState(['nageshwar','ashwini','Kishan','Rishabh'])
     
     }},
     {'Sales':{
-      'people':['Aryan','Karan'],
+      'people':['Shivam','Rajesh'],
       'Mongo':['Atlas','canva'],
       'React ':['redux','context Api']
     
@@ -43,8 +45,9 @@ const [members,setMembers]=useState(['nageshwar','ashwini','Kishan','Rishabh'])
   ]
 const [schema,setSchema]=useState(arr)
   return (
-    <div className="App">
-      <Flex minWidth='max-content' alignItems='center' gap='4' margin='20'>
+   
+    <Box className="App" style={{border:"2px solid" ,width:"60%" ,margin:"auto"}} >
+      <Flex minWidth='max-content' alignItems='center' gap='4' margin='100'>
 <Box>
   <Text>Sop</Text>
   <Heading as='h1' size='xl' noOfLines={1}> Action Plans</Heading>
@@ -58,7 +61,8 @@ const [schema,setSchema]=useState(arr)
 <Box  margin='20'>
 <MainList schema={schema} setSchema={setSchema}/>
 </Box>
-    </div>
+    </Box>
+    
   );
 }
 
